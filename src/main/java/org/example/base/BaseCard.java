@@ -2,8 +2,11 @@ package org.example.base;
 
 
 import java.util.Random;
-import java.util.random.RandomGenerator;
 
+
+/**
+ * This class is to create a Base card class with base characteristics
+ */
 public abstract class BaseCard {
 
     private final String cardName;

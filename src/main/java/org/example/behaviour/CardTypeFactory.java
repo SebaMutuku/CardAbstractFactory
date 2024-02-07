@@ -5,6 +5,9 @@ import org.example.implementations.BronzeCard;
 import org.example.implementations.GoldCard;
 import org.example.implementations.SilverCard;
 
+/**
+ * This is where we will create different cards based on a particular behaviour
+ */
 public class CardTypeFactory {
     public static BaseCard createCard(String cardType) {
         String cardName = "This doesnt matter";
