@@ -36,7 +36,6 @@ public abstract class BaseCard {
                 ", expiryDate='" + expiryDate + '\'' +
                 ", currency='" + currency + '\'' +
                 ", amount=" + amount +
-                ", limitAmount=" + getLimitAmount() +
                 '}';
     }
 
